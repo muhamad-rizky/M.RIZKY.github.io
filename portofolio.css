@@ -3,7 +3,8 @@
     padding: 0;
 }
 nav{
-    float: right;
+     float: right;
+    
 }
 nav li { 
     list-style:none;
@@ -19,113 +20,76 @@ nav a {
 nav li:hover {
     font-size: 15px;
     font-weight: 10px;
-    background-color: rgb(21, 19, 19);
+    background-color: rgb(10, 8, 8);
 
+}
+
+.head{
+    background-color: #f8bb39;
 }
 
 .header-right {
     float: left;
     font-size: 30px;
     padding: 20px;
-    color:rgb(141, 141, 30);
+    color:rgb(35, 35, 27);
     
 }
 
 body{
-    background-image: url(https://i.pinimg.com/474x/d3/9f/ca/d39fcae9dc1caba7c5795ee4db8b2313.jpg);
+    background-image: url(https://i.pinimg.com/474x/a7/80/0b/a7800b5b967972b28d60b2a574a31326.jpg);
     background-size: cover;
-    width: 100%;
-    height: 1200px;
-
+    height: 500px;
+    background-repeat: no-repeat;
+    /* width: auto;
+    display: flex;
+    padding-left: 250px;
+    margin-right: 10%; */
 }
 
 header {
-    /* background-color: rgb(219, 45, 219); */
     width: 100%;
     height: 80px;
-    color: rgb(237, 87, 87);
-    background: transparent;
 }
 
-.tentang h1{
-    margin-top: 10px;
-    padding-left: 200px;
-    letter-spacing: 1px;
-    color: #c9bb1b;
-}
+/* css index */
 
-.tentang h2{
-    width: 40px;
-    height: 50px;
-    padding-left:200px;
-    color: rgb(0, 17, 255);
-}
-
-.tentang h3 {
-    color: rgb(234, 241, 234);
-    text-align: center;
-    margin-top: 1px;
-    margin-left:100px;
-    
-}
-
-.tentang p{
-    text-align: center;
-    margin-left: 80px;
-    color: rgb(253, 250, 255);
-    margin-left: 100px;
-    
-}
-.top-wrapper {
-    width: auto;
-    display: flex;
-    padding-left: 5px;
-    margin-right: 10%;
-
-}
-
-.img-profile {
+/* .img-profile {
     border-radius: 100%;
     width: 200px;
     padding-top: 20px;
 
-}
+} */
 
 .profile {
-    padding-left: 500px; 
-    padding-top: 90px;
+    text-align: center;
+    padding-left: 20px; 
+    padding-top: 150px;
     letter-spacing: 3px;
     position: absolute;
-    width: auto;
-    margin-top: -80px;
-    /* color: #f0eff0; */
-}
-
-.text-footer {
-    padding-top: 50px;
-    color: rgb(183, 38, 38);
-    text-align: center;
+    font-size: xx-large;
+    
 
 }
 
 .header-right span {
-    color: #cb59cb;
-    font-size: 15px;
+    color: #d6d0d0;
+    font-size: 10px;
 }
 
 .profile h1 {
     /* margin: 10px; */
-    color: #cdc415;
+    color: #eaeaea;
 }
 
 .profile h2 {
     /* margin-right: 20px; */
-    color: rgb(103, 103, 198);
+    color: rgb(20, 20, 26);
 }
 
 .profile p {
     /* margin-right: 20px; */
-    color: rgb(103, 103, 1985);
+    color: rgb(0, 0, 0);
 }
 
 .contact {
@@ -139,18 +103,19 @@ header {
 }
 
 button {
-    padding: 10px 50px;
+    padding: 10px 30px;
     border-radius: 30px;
-    margin-left: 5px;
+    margin-left: 100px;
+    margin-top: 350px;
     border: none;
+    background: transparent;
 }
 
-button:hover{
-    box-shadow: 0 0 10px #d50e67;
+button:hover {
+    box-shadow: 0 0 10px #efeeee;
     transition: 0.3s;
-    color: rgb(231, 21, 234);
-    background-color: rgb(230, 43, 240);
-
+    color: rgb(240, 24, 240);
+    background-color: rgb(18, 17, 18);
 }
 
 /* .instagram {
@@ -168,6 +133,8 @@ button:hover{
     .profile{
         width: 100%;
         margin-bottom: 20px ;
+        text-align: center;
+        font-size: 2rem;
     }
 
     main .top-wrapper {
